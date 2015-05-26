@@ -1,0 +1,20 @@
+Package: bdal
+Type: Package
+Title: A Breeding Data Access Layer
+Version: 0.0.1.9000
+Date: 2015-05-26
+Authors@R: as.person(c(
+   "Reinard Simon <r.simon@cgiar.org> [aut, cre]",
+   "International Potato Center (CIP) [cph]"
+  ))
+Description: The package provides a set of functions to read and write data of field trials.
+  The major application is meant for highly standardized field trials (or studies) consisting
+  of a primary data sheet accompanied by meta data organized in groups.
+License: MIT + file LICENSE
+Depends: R (>= 3.2.0)
+URL: http://github.com/c5sire/bdal2
+BugReports: http://github.com/c5sire/bdal2/issues
+Imports: openxlsx, stringr, shiny, readxl, magrittr
+Suggests: knitr,
+    testthat
+VignetteBuilder: knitr
